@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Welcome to the Chieftain Hub</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0a0f24, #1a1f40, #101322);
+  color: white;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  padding: 80px 20px;
+}
+header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  animation: fadeInDown 1.2s ease-out;
+}
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  opacity: 0.8;
+  animation: fadeIn 2s ease-out;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* Discord Button */
+.discord-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: #5865F2;
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+.discord-btn:hover {
+  background: #4752c4;
+  transform: scale(1.05);
+}
+
+/* Animation */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to the Chieftain Hub</h1>
+  <p>A global community for chieftains to unite, hang out, and share wisdom.</p>
+</header>
+
+<section>
+
+  <div class="card">
+    <h2>🌍 About the Server</h2>
+    <p>
+      This server is a gathering place for <strong>chieftains across the world</strong> to 
+      meet, vibe, relax, and build friendships.
+    </p>
+
+    <p style="margin-top: 15px;">
+      <strong>The Chieftain Empire</strong> is an empire with schools across the world joining 
+      together to be a part of something bigger — a family, a community, and a global movement.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>📜 Safety & Rules</h2>
+    <ul style="line-height: 1.8; margin-left: 20px;">
+      <li>Be respectful to everyone — no harassment or hate speech.</li>
+      <li>No NSFW or inappropriate content.</li>
+      <li>Keep channels organized and follow topic rules.</li>
+      <li>No spamming, excessive pinging, or self-promo (unless allowed).</li>
+      <li>Listen to mods and admins — they keep the server safe.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>❓ F&A (Frequently Asked)</h2>
+    <p><strong>Q: Who can join the server?</strong><br>
+       A: Anyone who wants to hang out and be part of our chieftain community!</p>
+
+    <p style="margin-top: 15px;"><strong>Q: Is it safe?</strong><br>
+       A: Yes — we actively moderate and enforce strict safety rules.</p>
+
+    <p style="margin-top: 15px;"><strong>Q: What do people do here?</strong><br>
+       A: Chat, play games, talk culture, share advice, or just vibe.</p>
+  </div>
+
+  <div style="text-align:center;">
+    <a class="discord-btn" href="https://discord.gg/u4UWpbDwWE" target="_blank">
+      Join the Discord Server
+    </a>
+  </div>
+
+</section>
+
+</body>
+</html>
